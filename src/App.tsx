@@ -1,10 +1,10 @@
 import './App.css'
 
-import { useState } from 'react'
 import heartIcon from './assets/heart.svg'
 import journalIcon from './assets/journal.svg'
-import logo from './assets/logo.svg'
+import logo from './assets/logo.png'
 import searchIcon from './assets/search.svg'
+import { useState } from 'react'
 
 const data = [
   { src: '1.jpg', name: "Алиса, 25 лет", underText: "была в течение недели", goal: "Ищу настоящую любовь и готова к серьёзным отношениям." },
